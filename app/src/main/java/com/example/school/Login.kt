@@ -26,7 +26,7 @@ class Login : AppCompatActivity() {
         val email =findViewById<TextInputEditText>(R.id.email)
         val password =findViewById<TextInputEditText>(R.id.password)
         val loading = findViewById<LinearLayout>( R.id.loading_box)
-        val mainContainer = findViewById<LinearLayout>( R.id.main )
+        val mainContainer = findViewById<LinearLayout>( R.id.main_layout )
 
         signUpText.setOnClickListener {
             val i = Intent(this,Register::class.java)
